@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EEG READING</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="mild_depression_is_when_you_are_feeling_very_low_mood_or_almost_no_interest_to_do_in_your_life_everyday_and_this_feeling_has_been_sticking_with_you_for_the_past_two_weeks_there_are_myths_that_mild_depression_cannot_be_suffered_by_kids_or_teenagers_but_the_real_fact_is_that_depression_is_more_to_just_being_moody_and_it_can_affect_at_people_at_any_age_even_kids_and_teenagers">Mild depression is when you are feeling very low mood or almost no interest to do in your life, everyday, and this feeling has been sticking with you for the past two weeks. There are myths that mild depression cannot be suffered by kids or teenagers, but the real FACT is that depression is more to just being moody, and it can affect at people at any age, even kids and teenagers.</string>
+    <string name="title_activity_eeg2">eeg2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_hospital">Hospital</string>
+</resources>

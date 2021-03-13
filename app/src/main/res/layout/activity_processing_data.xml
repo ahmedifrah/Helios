@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fc5f8"
+    tools:context=".ProcessingData">
+
+    <Button
+        android:id="@+id/Cancel"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="Cancel"
+        android:onClick="Cancel"
+        android:background="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Header"
+        android:layout_width="447dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="612dp"
+        android:background="@drawable/topbar"
+        android:drawableLeft="@drawable/ic_done"
+        android:paddingStart="25dp"
+        android:paddingEnd="50dp"
+        android:text="HELIOS"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you for your cooperation."
+        android:textDirection="firstStrong"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:visibility="visible"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/ProcessBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Processing..."
+        android:textColor="#000000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="437dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

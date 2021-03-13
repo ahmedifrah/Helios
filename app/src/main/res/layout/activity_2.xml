@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fc5f8"
+    tools:context=".Activity2">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="36dp"
+        android:background="#ffffff"
+        android:onClick="MainMenu"
+        android:text="Home"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginBottom="36dp"
+        android:background="#ffffff"
+        android:onClick="GoSymptoms"
+        android:text="Symptoms"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="337dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="158dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="574dp"
+        android:autoSizeTextType="uniform"
+        android:text="What is Mild Depression?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="447dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="612dp"
+        android:background="@drawable/topbar"
+        android:drawableLeft="@drawable/ic_done"
+        android:paddingStart="25dp"
+        android:paddingEnd="50dp"
+        android:text="HELIOS"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="365dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="244dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="130dp"
+        android:justificationMode="inter_word"
+        android:text="Mild depression is when you are feeling a very low mood or almost no interest to do in your life, everyday, and this feeling has been sticking with you for the past two weeks. There are myths that mild depression cannot be suffered by kids or teenagers, but the real fact is that depression is more to just being moody, and it can affect at people at any age, even kids and teenagers."
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

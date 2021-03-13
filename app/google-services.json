@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297793596615",
+    "project_id": "eegdepressiontest-e87be",
+    "storage_bucket": "eegdepressiontest-e87be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297793596615:android:d2e607a1e0fb78542a62e2",
+        "android_client_info": {
+          "package_name": "com.example.eegreading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297793596615-c8tn99sj0ae28mrp04o9ikgor6ohn8ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgzFbnTZOa5Vti4uWPUHMU0sqNRhw9qUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297793596615-c8tn99sj0ae28mrp04o9ikgor6ohn8ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

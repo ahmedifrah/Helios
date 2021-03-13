@@ -1,0 +1,2 @@
+include ':app', ':app-kotlin', ':app-java', ':app-rxjava', ':library', ':app-rxkotlin'
+rootProject.name = "EEG READING"
